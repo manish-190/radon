@@ -37,7 +37,7 @@ router.get('/candidates/:canidatesName', function(req, res){
     console.log('Candidates name is '+req.params.canidatesName)
     res.send('Done')
 })
-1st assignment
+//1st assignment
 
 router.get('/movie1', function(req, res){
     const movie1 = ["'The Godfather' (1972)","Casablanca' (1943)",
@@ -51,7 +51,7 @@ router.get('/movie1', function(req, res){
 })
 
 
-2nd assignment
+//2nd assignment
 
 
 router.get('/movies/:indexNumber',function(req,res){
@@ -72,7 +72,7 @@ res.send(arr)
 
 
 
-3rd assignment
+//3rd assignment
 
 router.get('/movies/:indexNumber',function(req,res){
 
@@ -92,7 +92,7 @@ movie = movies[index];
 })
 
 
-4th assignment
+//4th assignment
 
 
 
