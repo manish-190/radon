@@ -11,7 +11,7 @@ const bookSchema = new mongoose.Schema( {
         europePrice: String,
     },
     sales: {type: Number, default: 10},
-    
+    //summary: mongoose.Schema.Types.Mixed
     // " best boook on earth"   [ "Nodejs in detail" , "mongodb in detail", "fronend in detail"] 
     // {
         // "ch1 ": "awesome intro to JS",
