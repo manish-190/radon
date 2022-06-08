@@ -28,6 +28,8 @@ let authorOfBook = async(req,res)=>{
     let price = data.prices
     res.send({msg:authorData,price})
 }
+
+
 const getBooksData= async function (req, res) {
 
     
